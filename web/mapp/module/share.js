@@ -1,11 +1,11 @@
 /**
  * Created by Administrator on 2016/11/23 0023.
  */
-/*ÊÖ»ú¶Ë¶¨Òå*/
+/*ï¿½Ö»ï¿½ï¿½Ë¶ï¿½ï¿½ï¿½*/
 new function (){
     var _self = this;
-    _self.width = 750;//ÉèÖÃÄ¬ÈÏ×î´ó¿í¶È
-    _self.fontSize = 100;//Ä¬ÈÏ×ÖÌå´óÐ¡
+    _self.width = 750;//ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    _self.fontSize = 100;//Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡
     _self.widthProportion = function(){var p = (document.body&&document.body.clientWidth||document.getElementsByTagName("html")[0].offsetWidth)/_self.width;return p>1?1:p<0.43?0.43:p;};
     _self.changePage = function(){
         document.getElementsByTagName("html")[0].setAttribute("style","font-size:"+_self.widthProportion()*_self.fontSize+"px !important");
@@ -13,3 +13,9 @@ new function (){
     _self.changePage();
     window.addEventListener('resize',function(){_self.changePage();},false);
 };
+
+// window.onresize=function ()
+// {
+//     document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';
+// };
+

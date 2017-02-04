@@ -1,9 +1,9 @@
 html{font-size: 100px;}
 *{margin:0; padding:0; -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent; /* For some Androids */ }
-body {font-family: "Microsoft Yahei", "微软雅黑"; max-width: 750px;background: #fff;}
-img { border:none;}
+body {font-family: "Microsoft Yahei", "微软雅黑"; max-width: 750px;background: #fff;font-size:16px}
+img { border:none;display: block;}
 li { list-style-type:none;}
-a{ text-decoration:none; color:#555;}
+a{ text-decoration:none; color:#555; display: block}
 a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);}/*单击时去除阴影*/
 input,textarea{-webkit-appearance:none;outline: none;}/*去除表单的默认样式*/
 .clearfix:after{content: "";display: block;height: 0;clear: both;zoom : 1;}
