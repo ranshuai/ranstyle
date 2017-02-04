@@ -23,7 +23,6 @@
     "webpack-md5-hash": "^0.0.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "set NODE_ENV=development&set MOD=kehai&webpack-dev-server  --progress --hot",
     "build": "set NODE_ENV=production&set MOD=kehai&webpack --config webpack.config.prod.js --progress"
   },
